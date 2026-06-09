@@ -1,11 +1,11 @@
-package com.petfinder.services;
+package com.cademeupet.app;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.petfinder.entities.Pet;
-import com.petfinder.repositories.PetRepository;
+import com.cademeupet.app.Pet;
+import com.cademeupet.app.PetRepository;
 
 @Service
 public class PetService {

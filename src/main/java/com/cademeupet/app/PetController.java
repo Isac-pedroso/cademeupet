@@ -1,12 +1,12 @@
-package com.petfinder.controllers;
+package com.cademeupet.app;
 
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.petfinder.entities.Pet;
-import com.petfinder.services.PetService;
+import com.cademeupet.app.Pet;
+import com.cademeupet.app.PetService;
 
 @RestController
 @RequestMapping("/pets")

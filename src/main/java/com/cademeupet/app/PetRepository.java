@@ -1,8 +1,10 @@
-package com.petfinder.repositories;
+
+
+package com.cademeupet.app;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.petfinder.entities.Pet;
+import com.cademeupet.app.Pet;
 
 public interface PetRepository extends JpaRepository<Pet, Long> {
 
